@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>ejemplo</title>
+    <title>Ejercicio 13 - Miguel Martín</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>

@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 02 - Miguel Martín</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body style="width: 200px; margin: 40px 70px;">
+<body style="width: 200px;">
     <?php
     echo "<table border=1>";
 

@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Ejercicio 18 - Miguel Martín</title>
+  <link rel="stylesheet" href="../estilo.css">
 </head>
 
 <body style="margin: 5vh 10vh;">
