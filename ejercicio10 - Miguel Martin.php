@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,31 @@
     <title>Ejercicio 10 - Miguel Martín</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body style="margin: 5vh 10vh">
+<bodys>
 
-<?php
+    <?php
 
-$equipo = array();
+    // Array asociativo clave : valor
+    $equipo = array();
 
-$equipo = [
-    'base' => 'LeBron James',
-    'escolta' => 'Michael Jordan',
-    'alero' => 'Kobe Bryant',
-    'alapivot' => 'Pau Gasol',
-    'pivot' => 'Stephen Curry'
-];
+    $equipo = [
+        'base' => 'LeBron James',
+        'escolta' => 'Michael Jordan',
+        'alero' => 'Kobe Bryant',
+        'alapivot' => 'Pau Gasol',
+        'pivot' => 'Stephen Curry'
+    ];
 
-echo "<h1>Equipo baloncesto</h1>";
-echo "<br> <b>Quinteto inicial de jugadores con su posición: </b><br>";
-echo "<ul>";
-foreach ($equipo as $posicion=>$jugador){
-    echo "<li>" . $posicion . ": " . $jugador . "</li><br>";
-}
-echo "</ul>";
-?>
-    
-</body>
+    echo "<h1>Equipo baloncesto</h1>";
+    echo "<br> <b>Quinteto inicial de jugadores con su posición: </b><br>";
+    // Se muestra la lista de los elementos del array con su clave y valor
+    echo "<ul>";
+    foreach ($equipo as $posicion => $jugador) {
+        echo "<li>" . $posicion . ": " . $jugador . "</li><br>";
+    }
+    echo "</ul>";
+    ?>
+
+    </body>
+
 </html>
