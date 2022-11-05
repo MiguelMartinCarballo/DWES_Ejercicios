@@ -6,7 +6,7 @@
     <title>Ejercico01 - Miguel Martín</title>
 </head>
 <body>
-    <table>
+    <table border="1">
         <thead>
             <tr>
                 <th>Nombre</th>
